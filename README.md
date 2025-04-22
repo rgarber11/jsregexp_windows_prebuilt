@@ -1,4 +1,4 @@
-# Prebuilt Windows JSREGEXP
+# Prebuilt Windows Jsregexp
 ## Installation
 ```lua
 {
@@ -11,7 +11,7 @@
                 end)(),
                 dependencies = (function()
                     if vim.fn.has "win32" == 1 then
-                        return
+                        return "rgarber11/jsregexp_windows_prebuilt"
                     end
                     return
                 end)()
